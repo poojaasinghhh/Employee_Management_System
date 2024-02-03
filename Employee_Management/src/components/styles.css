@@ -1,0 +1,77 @@
+.login {
+  background: url("images/login_background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1.text {
+  font-weight: bolder;
+  color: black;
+}
+
+.text {
+  color: black;
+  font-weight: bold;
+}
+
+.container {
+  height: 200px;
+  width: 500px;
+  padding-bottom: 10px;
+  opacity: none;
+  margin-left: 8%;
+}
+
+.form-control {
+  margin-top: 1rem;
+}
+
+.submit {
+  font-weight: bold;
+  background-color: blue;
+}
+
+.error {
+  font-weight: bolder;
+  color: rgb(179, 14, 14);
+}
+
+ul li :hover {
+  background-color: gray;
+}
+
+.dashboard {
+  position: fixed;
+  height: 100vh;
+  width: 20%;
+}
+
+.employeeimage {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.start {
+  background: url("images/login_background.jpeg");
+}
+
+.startlogin {
+  color: rgb(19, 20, 20);
+  background-color: antiquewhite;
+  margin-left: 600px;
+}
+
+.startlogin button {
+  opacity: 1;
+}
+
+.emp_det_image {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
